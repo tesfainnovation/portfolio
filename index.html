@@ -120,36 +120,36 @@
             <div class="portfolio-box">
                 <img src="images/projectApple.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
+                    <!-- <h4>Web Design</h4> -->
                     <!-- <p>A responsive replica of Apple's official website, developed using React, HTML, CSS, and JavaScript. The project showcases clean design principles, dynamic content loading, and mobile-first optimization.</p> -->
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://t-a-clone.netlify.app/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
                         <div class="portfolio-box">
                 <img src="images/projectNetflix.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
+                    <!-- <h4>Web Design</h4> -->
                     <!-- <p>A movie streaming platform clone, replicating Netflix's interface and features, including responsive layout and user-friendly navigation. Built with React, HTML, CSS, and JavaScript, it features dynamic content display using an API to fetch movies and TV shows.</p> -->
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://tesfa-logic.netlify.app/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
                         <div class="portfolio-box">
-                <img src="images/projectAmazon.jpg" alt="">
+               <img src="images/projectAmazon.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
+                    <!-- <h4>Web Design</h4> -->
                     <!-- <p>A fully functional clone of Amazon's e-commerce platform, built with React, HTML, CSS, and JavaScript. It includes product listings, user authentication, a shopping cart, and payment integration, mimicking the core functionality of Amazon.</p> -->
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://amazon-clone-tesfa-logic.netlify.app/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
                         <div class="portfolio-box">
                 <img src="images/projectEvangadi.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
+                    <!-- <h4>Web Design</h4> -->
                     <!-- <p>A community forum built using React for the front-end and Node.js for the back-end. The project includes user registration, topic creation, comments, and real-time chat functionality. It's a dynamic, scalable solution for online community engagement.<p> -->
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://evangadi-forum-tesfa.netlify.app/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -177,18 +177,22 @@
       <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+              <input type="hidden" name="access_key" value="60b964bf-a4ad-467a-b355-735431cfd7fd">
+
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" email="email" placeholder="Email Address">
             </div>
             <div class="input-box">
                 <input type="number" placeholder="Phone Number">
                 <input type="text" placeholder="Email Subject">
             </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Sind Message" class="btn">
+            <button type="submit" class="btn">Submit Form</button>
+            <!-- <input type="submit" value="Send Message" class="btn"> -->
         </form>
+    
       </section>
 
       <!-- footer design -->
@@ -209,5 +213,7 @@
 
     <!-- custom js -->
     <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
   </body>
 </html>

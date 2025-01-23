@@ -58,5 +58,15 @@ header.classList.toggle('sticky', window.scrollY > 100);
           });
 
 
-          
+          // const form = document.querySelector('form');
+
+          // Email.send({
+          //   Host: "smtp.mailendo.com",
+          //   Username: "username",
+          //   Password: "password",
+          //   To: "them@website.com",
+          //   From: "you@isp.com",
+          //   Subject: "This is the subject",
+          //   Body: "And this is the body",
+          // }).then((message) => alert(message));
 
